@@ -1,0 +1,28 @@
+.counter {
+    margin-top: 5px;
+    font-weight: bold;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+textarea {
+    width: 40%;
+    height: 140px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 3px solid black;
+    border-radius: 4px;
+}
+textarea:focus {
+    outline: none;
+    border-color: blue;
+}
+textarea::placeholder {
+    color: gray;
+    font-style: italic;
+}
+textarea.over-limit {
+    border-color: red;
+    color: red;
+}
